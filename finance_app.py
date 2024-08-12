@@ -38,7 +38,7 @@ elif user_invest_type == 'bond':
     repayment = (i * current_amount) / (1 - math.pow((1 + i), - months))
     
     # print monthly repayment of the bond.
-    print(f"the mounthly repayment will be {repayment}.")
+    print(f"the monthly repayment will be {repayment}.")
 else:
     print("please ensure you entered a valid input")
     exit()
